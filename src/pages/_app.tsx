@@ -1,8 +1,8 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 // NOTE:MyApp内でエラーが発生しているのでインポート
-import React from 'react'
 
 // グローバルのスタイル
 const GlobalStyle = createGlobalStyle`
