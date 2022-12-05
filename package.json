@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
+    "stylelint:fix": "stylelint src/**/*.{css,scss} --fix",
+    "prettier:fix": "prettier --check --write 'src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "format": "next lint --fix --dir src",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -48,7 +50,13 @@
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.7",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.3.0",
     "tsconfig-paths-webpack-plugin": "^4.0.0",
     "typescript": "4.8.4",
     "typescript-eslint": "^0.0.1-alpha.0"
