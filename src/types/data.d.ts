@@ -26,3 +26,7 @@ export type Product = {
   owner: User
 }
 
+// APIコンテキスト
+export type ApiContext = {
+  apiRootUrl: string
+}
