@@ -6,7 +6,7 @@ import type {
   CSSPropertyGridAutoFlow,
   CSSPropertyGridColumn,
   CSSPropertyGridRow,
-  Responsive,
+  Responsive
 } from 'types/styles'
 import { toPropValue } from 'utils/styles'
 
@@ -53,7 +53,7 @@ const Grid = styled(Box)<GridProps>`
 `
 
 Grid.defaultProps = {
-  display: 'grid',
+  display: 'grid'
 }
 
 export default Grid

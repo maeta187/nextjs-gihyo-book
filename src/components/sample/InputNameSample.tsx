@@ -11,7 +11,7 @@ export default function InputNameSample() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors }
   } = useForm<MyFromData>()
   const onSubmit: SubmitHandler<MyFromData> = (data) => {
     console.log(data)
