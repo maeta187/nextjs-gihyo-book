@@ -31,9 +31,9 @@ const signin = async (
       method: 'POST',
       headers: {
         Accept: 'application/json',
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
-      body: JSON.stringify(params),
+      body: JSON.stringify(params)
     }
   )
 }

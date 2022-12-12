@@ -10,7 +10,7 @@ import type {
   CSSPropertyFlexDirection,
   CSSPropertyJustifySelf,
   CSSPropertyFlexWrap,
-  CSSPropertyAlignSelf,
+  CSSPropertyAlignSelf
 } from 'types/styles'
 import { toPropValue } from 'utils/styles'
 
@@ -50,7 +50,7 @@ const Flex = styled(Box)<FlexProps>`
 `
 
 Flex.defaultProps = {
-  display: 'flex',
+  display: 'flex'
 }
 
 export default Flex
