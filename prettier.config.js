@@ -10,5 +10,6 @@ module.exports = {
   bracketSameLine: false, // JSX内の要素の閉じタグを最後の行に含んで表示するか
   arrowParens: 'always', // アロー関数の引数が１つのときにカッコで囲むかどうか
   trailingComma: 'none',
-  trailingComma: 'none'
+  endOfLine: 'auto',
+  rangeStart: 0
 }
