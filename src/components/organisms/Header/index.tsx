@@ -55,7 +55,7 @@ const Header = () => {
         <Nav as='nav' height='56px' alignItems='center'>
           <NavLink>
             <Link href='/' passHref>
-              <Anchor>
+              <Anchor as='a'>
                 <AppLogo />
               </Anchor>
             </Link>
@@ -91,7 +91,7 @@ const Header = () => {
         </Nav>
         <Nav as='nav' height='56px' alignItems='center'>
           <NavLink>
-            <Box display={{ base: 'none', md: 'block' }}>
+            <Box display={{ base: 'block', md: 'none' }}>
               <Link href='/search' passHref>
                 <Anchor as='a'>
                   <SearchIcon />
