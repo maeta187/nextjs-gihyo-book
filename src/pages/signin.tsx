@@ -26,6 +26,7 @@ const SigninPage: NextPage = () => {
         paddingBottom={2}
         paddingLeft={{ base: 2, md: 0 }}
         paddingRight={{ base: 2, md: 0 }}
+        justifyContent='center'
       >
         <Flex
           width='400px'
