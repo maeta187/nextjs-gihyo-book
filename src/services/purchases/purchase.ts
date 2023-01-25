@@ -18,7 +18,7 @@ const purchase = async (
   context: ApiContext,
   params: PurchaseParams
 ): Promise<{ message: string }> => {
-  return await fetcher(`${context.apiRootUrl.replace(/\/$/g, '')}/purchase`, {
+  return await fetcher(`${context.apiRootUrl.replace(/\/$/g, '')}/purchases`, {
     method: 'POST',
     headers: {
       Origin: '*',
