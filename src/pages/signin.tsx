@@ -13,7 +13,7 @@ const SigninPage: NextPage = () => {
     if (!err) {
       // サインインに成功し、クエリが指定されている場合はそのURLに移動。
       // デフォルトはトップページに移動。
-      const redurectTo = (router.query['redurect_to'] as string) ?? '/'
+      const redurectTo = (router.query['redirect_to'] as string) ?? '/'
       console.log('Redirecting', redurectTo)
       await router.push(redurectTo)
     }
@@ -26,6 +26,7 @@ const SigninPage: NextPage = () => {
         paddingBottom={2}
         paddingLeft={{ base: 2, md: 0 }}
         paddingRight={{ base: 2, md: 0 }}
+        justifyContent='center'
       >
         <Flex
           width='400px'
