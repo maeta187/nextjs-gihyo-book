@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
-    "stylelint:fix": "stylelint src/**/*.{css,scss} --fix",
     "prettier:fix": "prettier --check --write 'src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "format": "next lint --fix --dir src",
     "storybook": "start-storybook -p 6006",
